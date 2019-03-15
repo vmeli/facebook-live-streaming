@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>facebook live streaming</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="./main.css">
+</head>
+<body>
+	
+	<div class="wrapper-facebook">
+		<div class="organism-section_facebook-live-streaming js-mainBlock">
+			<div class="cgrid-container facebook-live-streaming__container">
+
+				<div class="container-inlive-close-mobile">
+					<div class="atm-btn-en-vivo">
+						<div class="btn-en-vivo__container twinkle">
+							EN VIVO <i class="fa fa-play" aria-hidden="true"></i>
+						</div>
+					</div>
+
+					<button class="atm-btn-lrtv-close js-close" role="button">
+						<i class="fa fa-times-circle" aria-hidden="true"></i>
+					</button>
+				</div>
+
+				<div class="container__video js-block-expand">
+					<div class="video-live">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Zx4Hjq6KwO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+
+				<div class="container__description">
+					<div class="container-inlive-close-mobile">
+						<div class="atm-btn-en-vivo">
+							<div class="btn-en-vivo__container twinkle">
+								EN VIVO <i class="fa fa-play" aria-hidden="true"></i>
+							</div>
+						</div>
+						<button class="atm-btn-lrtv-close js-close" role="button">
+							<i class="fa fa-times-circle" aria-hidden="true"></i>
+						</button>
+					</div>
+					<div class="description__title">
+						<h2>
+							<a href="{{$inLive['url']}}" target="_blank" rel="noopener">
+								Title 
+							</a>
+						</h2>
+						Description
+					</div>
+					<div class="description__share-buttons">
+
+						<button class="atm-btn-lrtv-expand js-expand">
+							<i class="fa fa-expand js-expand-icon" aria-hidden="true"></i>
+							<span class="js-expand-label">Maximizar</span>
+						</button>
+
+						<div class="btn-share-inlive">
+							<div class="fb-share-button" data-href="https://larepublica.pe/" data-layout="button" data-size="small" data-mobile-iframe="true">
+								<a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flarepublica.pe%2F&amp;src=sdkpreparse"></a>
+							</div>
+				 			<a class="twitter-share-button" href="https://larepublica.pe/" data-text="Demo title" data-via="larepublica_pe"></a>
+			 			</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="./main.js"></script>
+</body>
+</html>

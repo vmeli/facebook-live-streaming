@@ -1,0 +1,416 @@
+* {
+  box-sizing: border-box;
+}
+.organism-section_facebook-live-streaming {
+  display: inline-block;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container {
+  display: inline-block;
+  padding: 2rem 1rem;
+  color: #fff;
+  background: #32323e;
+  margin-top: 54px;
+}
+@media (min-width: 768px) {
+  .organism-section_facebook-live-streaming .facebook-live-streaming__container {
+    display: table;
+  }
+}
+@media (min-width: 1000px) {
+  .organism-section_facebook-live-streaming .facebook-live-streaming__container {
+    margin-top: 0px;
+  }
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container-inlive-close-mobile {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .organism-section_facebook-live-streaming .facebook-live-streaming__container .container-inlive-close-mobile {
+    display: none;
+  }
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__video {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  transition: width 1s ease-out;
+}
+@media (min-width: 768px) {
+  .organism-section_facebook-live-streaming .facebook-live-streaming__container .container__video {
+    display: table-cell;
+    width: 35%;
+  }
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__video .video-live {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  display: block;
+  background: 0 0;
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__video .video-live.buenazo {
+  padding-top: 100%;
+}
+@media (min-width: 768px) {
+  .organism-section_facebook-live-streaming .facebook-live-streaming__container .container__video .video-live.buenazo {
+    padding-top: 56.25%;
+  }
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__video .video-live iframe {
+  border: none;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__video .video-live > div {
+  position: absolute;
+  top: 0;
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description {
+  display: inline-block;
+  width: 100%;
+  padding: 1rem 0 0 0;
+  vertical-align: top;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description {
+    width: auto;
+    display: table-cell;
+    padding: 0 0 0 3rem;
+  }
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .container-inlive-close-mobile {
+  display: none;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .container-inlive-close-mobile {
+    display: inline-block;
+  }
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .description__title {
+  position: relative;
+  padding: 1rem 0 2rem 0;
+}
+@media (min-width: 768px) {
+  .organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .description__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 0 0 0 3rem;
+  }
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .description__title h2 {
+  margin: 0;
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .description__title h2 a {
+  font-size: 2.6rem;
+  color: #fff;
+  font-weight: 700;
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .description__title p a {
+  color: rgba(92, 255, 104, 0.9);
+  font-weight: bold;
+  border-bottom: 1px solid rgba(92, 255, 104, 0.9);
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .description__title p a:hover {
+  opacity: 0.8;
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .description__share-buttons {
+  display: inline-block;
+}
+@media (min-width: 768px) {
+  .organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .description__share-buttons {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+  }
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .description__share-buttons .atm-btn-lrtv-expand {
+  display: none;
+}
+@media (min-width: 768px) {
+  .organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .description__share-buttons .atm-btn-lrtv-expand {
+    display: inline-block;
+  }
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .description__share-buttons .btn-share-inlive {
+  display: inline-block;
+  vertical-align: top;
+}
+@media (min-width: 768px) {
+  .organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .description__share-buttons .btn-share-inlive {
+    float: right;
+    right: 3rem;
+    position: absolute;
+  }
+}
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .description__share-buttons .btn-share-inlive .fb-share-button,
+.organism-section_facebook-live-streaming .facebook-live-streaming__container .container__description .description__share-buttons .btn-share-inlive .twitter-share-button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.atm-btn-lrtv-close{
+  border: none;
+  background: none;
+  font-size: 17px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  padding: 1px 0;
+  margin: 0;
+  float: right;
+  cursor: pointer;
+  color: #fff;
+}
+
+.atm-btn-en-vivo {
+  background: #fb0203;
+  padding: 0.5rem;
+  display: inline-block;
+  vertical-align: top;
+}
+.atm-btn-en-vivo .btn-en-vivo__container {
+  font-weight: 700;
+  font-size: 10px;
+  color: #fff;
+}
+.atm-btn-lrtv-expand {
+  border: none;
+  background: none;
+  font-size: 15px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 1px 0;
+  margin: 0;
+  cursor: pointer;
+  color: #fff;
+}
+.atm-btn-lrtv-expand i, .atm-btn-lrtv-expand span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*
+$break-filter-cellphone768: 768px;
+$break-filter-cellphone1000: 1000px;
+
+@mixin tablet {
+  @media (min-width: #{$break-filter-cellphone768}) {
+    @content;
+  }
+}
+
+@mixin cell1000p {
+  @media (min-width: #{$break-filter-cellphone1000}) {
+    @content;
+  }
+}
+
+.organism-section_facebook-live-streaming{
+  display: inline-block;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  .facebook-live-streaming__container{
+    display: inline-block;
+    padding: 2rem 1rem;
+    color: #fff;
+    background: #32323e;
+    margin-top: 54px;
+    @include tablet{
+      display: table;
+    }
+    @include cell1000p{
+      margin-top: 0px;
+    }   
+    .container-inlive-close-mobile{
+      display: inline-block;
+      width: 100%;
+      margin-bottom: 1rem;
+      @include tablet{
+        display: none;
+      }
+    }
+    .container__video{
+      display: inline-block;
+      width: 100%;
+      vertical-align: top;
+      transition: width 1s ease-out;
+      @include tablet{
+        display: table-cell;
+        width: 35%;
+      }
+      .video-live{
+        overflow: hidden;
+        padding-top: 56.25%;
+        position: relative;
+        display: block;
+        background: 0 0;
+        &.buenazo {
+          padding-top: 100%;
+          @include tablet {
+            padding-top: 56.25%;
+          }
+        }
+        iframe{
+          border: none;
+          overflow: hidden;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+        >div {
+          position: absolute;
+          top: 0;
+        }
+      }
+    }
+    .container__description{
+      display: inline-block;
+      width: 100%;
+      padding: 1rem 0 0 0;
+      vertical-align: top;
+      position: relative;
+      @include tablet{
+        width: auto;
+        display: table-cell;
+        padding: 0 0 0 3rem;
+      }
+      .container-inlive-close-mobile{
+        display: none;
+        width: 100%;
+        @include tablet{
+          display: inline-block;
+        }
+      }
+      .description__title{
+        position: relative;
+        padding: 1rem 0 2rem 0;
+        @include tablet{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin: 0;
+          margin-right: -50%;
+          transform: translate(-50%, -50%);
+          padding: 0 0 0 3rem;          
+        }
+        h2{
+          margin: 0;
+          a{
+            font-size: 2.6rem;
+            color: #fff;
+            font-weight: 700;
+          }
+        }
+        p {
+          a {
+            color: rgba(92, 255, 104, 0.9);
+            font-weight: bold;
+            border-bottom: 1px solid rgba(92, 255, 104, 0.9);
+            &:hover {
+              opacity: 0.8;
+            }
+          }
+        }
+      }
+
+      .description__share-buttons{
+        display: inline-block;
+        @include tablet{
+          position: absolute;
+          bottom: 0px;
+          width: 100%;
+        }
+        .atm-btn-lrtv-expand{
+          display: none;
+          @include tablet{
+            display: inline-block;
+          }
+        }
+        .btn-share-inlive{
+          display: inline-block;
+          vertical-align: top;
+          @include tablet{
+            float: right;
+            right: 3rem;
+            position: absolute;           
+          }     
+          .fb-share-button,
+          .twitter-share-button{
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}
+
+.atm-btn-lrtv-close{
+  border: none;
+  background: none;
+  font-size: 17px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  padding: 1px 0;
+  margin: 0;
+  float: right;
+  cursor: pointer;
+  color: #fff;
+}
+.atm-btn-en-vivo{
+  background: #fb0203;
+  padding: 0.5rem;
+  display: inline-block;
+  vertical-align: top;
+  .btn-en-vivo__container{
+    font-weight: 700;
+    font-size: 10px;
+    color: #fff;
+  }
+}
+
+.atm-btn-lrtv-expand{
+  border: none;
+  background: none;
+  font-size: 15px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 1px 0;
+  margin: 0;
+  cursor: pointer;
+  color: #fff;
+  i, span{
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+
+*/
+.wrapper-facebook {
+  max-width: 1000px;
+  width: 100%;
+  margin: 15px auto;
+}
+.cgrid-container.facebook-live-streaming__container {
+  width: 100%;
+}
